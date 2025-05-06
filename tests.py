@@ -13,6 +13,13 @@ def test_subtract():
     assert functions.subtract(10, 20) == -10
 
 
+def test_multiply():
+    assert functions.multiply(2, 3) == 6
+    assert functions.multiply(-1, 1) == -1
+    assert functions.multiply(0, 5) == 0
+    assert functions.multiply(-2, -3) == 6
+
+
 if __name__ == "__main__":
     test_add()
     test_subtract()
